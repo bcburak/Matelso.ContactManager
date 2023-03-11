@@ -3,11 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Matelso.ContactManager.Domain.Entities
 {
-    public class Contact
+    public class Contact : BaseEntity
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
 
         [Required]
         [StringLength(100, MinimumLength = 3)]
@@ -25,11 +22,6 @@ namespace Matelso.ContactManager.Domain.Entities
         public string DisplayName { get; set; }
 
         public DateTime? BirthDate { get; set; }
-
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public DateTime CreationTimestamp { get; set; }
-
-        public DateTime? LastChangeTimestamp { get; set; }
 
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public bool NotifyHasBirthdaySoon { get; set; }
