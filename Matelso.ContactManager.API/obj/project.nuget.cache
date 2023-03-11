@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "lMDCwD+H/lBDdManY2udWAoQMXu4REotZwvYyu9PziIVt3+dFLfCtViVXwRRHaYJpvhNUgZqvaxqMPB3nK7yEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Burak.Celik\\source\\training\\Matelso.ContactManager\\Matelso.ContactManager.API\\Matelso.ContactManager.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

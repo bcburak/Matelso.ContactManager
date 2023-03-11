@@ -1,0 +1,15 @@
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\bin\Debug\net6.0\Matelso.ContactManager.Application.deps.json
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\bin\Debug\net6.0\Matelso.ContactManager.Application.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\bin\Debug\net6.0\Matelso.ContactManager.Application.pdb
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\bin\Debug\net6.0\Matelso.ContactManager.Domain.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\bin\Debug\net6.0\Matelso.ContactManager.Domain.pdb
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\obj\Debug\net6.0\Matelso.ContactManager.Application.csproj.AssemblyReference.cache
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\obj\Debug\net6.0\Matelso.ContactManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\obj\Debug\net6.0\Matelso.ContactManager.Application.AssemblyInfoInputs.cache
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\obj\Debug\net6.0\Matelso.ContactManager.Application.AssemblyInfo.cs
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\obj\Debug\net6.0\Matelso.ContactManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\obj\Debug\net6.0\Matelso.ContactManager.Application.csproj.CopyComplete
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\obj\Debug\net6.0\Matelso.ContactManager.Application.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\obj\Debug\net6.0\refint\Matelso.ContactManager.Application.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\obj\Debug\net6.0\Matelso.ContactManager.Application.pdb
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Application\obj\Debug\net6.0\ref\Matelso.ContactManager.Application.dll

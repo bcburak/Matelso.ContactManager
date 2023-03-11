@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Matelso.ContactManager.Application\Matelso.ContactManager.Application.csproj" />
+    <ProjectReference Include="..\Matelso.ContactManager.Domain\Matelso.ContactManager.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Context\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Registration\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\bin\Debug\net6.0\Matelso.ContactManager.Persistence.deps.json
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\bin\Debug\net6.0\Matelso.ContactManager.Persistence.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\bin\Debug\net6.0\Matelso.ContactManager.Persistence.pdb
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\bin\Debug\net6.0\Matelso.ContactManager.Application.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\bin\Debug\net6.0\Matelso.ContactManager.Domain.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\bin\Debug\net6.0\Matelso.ContactManager.Application.pdb
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\bin\Debug\net6.0\Matelso.ContactManager.Domain.pdb
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\obj\Debug\net6.0\Matelso.ContactManager.Persistence.csproj.AssemblyReference.cache
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\obj\Debug\net6.0\Matelso.ContactManager.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\obj\Debug\net6.0\Matelso.ContactManager.Persistence.AssemblyInfoInputs.cache
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\obj\Debug\net6.0\Matelso.ContactManager.Persistence.AssemblyInfo.cs
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\obj\Debug\net6.0\Matelso.ContactManager.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\obj\Debug\net6.0\Matelso.ContactManager.Persistence.csproj.CopyComplete
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\obj\Debug\net6.0\Matelso.ContactManager.Persistence.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\obj\Debug\net6.0\refint\Matelso.ContactManager.Persistence.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\obj\Debug\net6.0\Matelso.ContactManager.Persistence.pdb
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.Persistence\obj\Debug\net6.0\ref\Matelso.ContactManager.Persistence.dll
