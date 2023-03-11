@@ -11,6 +11,7 @@ namespace Matelso.ContactManager.Application.Interfaces.Services
         Task<ServiceResponse<int>> DeleteContactById(int id);
         Task<ServiceResponse<Contact>> GetContactById(int contactId);
         Task<ServiceResponse<List<Contact>>> GetAllContacts();
+        //Task<bool> CheckIfEmailIsExist(string email);
 
     }
 }

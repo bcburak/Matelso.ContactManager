@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TStE+nalrgOxWaay/OsvLtbT92j9MnXNB6H6cb3HU2fHuNunWR6hb5MHI7YcX6y94dmAYUrcjQqQAp1i6OGCZA==",
+  "dgSpecHash": "zMWFCmIRDWxbLCa68XMYR5nU5OMbn0SNfEsrAZMxS7CEinBxxRHqla9ZHobKHu4ZAfll6KzM7FL1K3UIcfYnVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Burak.Celik\\source\\training\\Matelso.ContactManager\\Matelso.ContactManager.UnitTests\\Matelso.ContactManager.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

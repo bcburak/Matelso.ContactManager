@@ -40,3 +40,6 @@ C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManag
 C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.API\bin\Debug\net6.0\Npgsql.dll
 C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.API\bin\Debug\net6.0\Mapster.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.API\bin\Debug\net6.0\Mapster.Core.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.API\bin\Debug\net6.0\FluentValidation.dll

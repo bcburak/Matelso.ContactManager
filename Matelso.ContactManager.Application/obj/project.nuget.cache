@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ear/Kou3Wf/VlJtnGM6iQUlNjmmc88aiJCq/2S/i6fHUEcCwfAGeW7PMqJq44IoYJ1WWV3lYJQQwS4eU9rgVhw==",
+  "dgSpecHash": "SIym74+zAkgw3ZroWQsIg7t66TDbCySqwnn6t6Z9VhKXMwfniOG4KeUleZiMwU3dWZzapszGoNdtgHv9a2TJlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Burak.Celik\\source\\training\\Matelso.ContactManager\\Matelso.ContactManager.Application\\Matelso.ContactManager.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

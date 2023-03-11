@@ -46,5 +46,10 @@ namespace Matelso.ContactManager.Application.Services.Implementation
             var contactEntityList = await _contactRepository.GetAllAsync();
             return new ServiceResponse<List<Contact>>(contactEntityList.ToList());
         }
+
+        //public async Task<bool> CheckIfEmailIsExist(string email)
+        //{
+        //    return await _contactRepository.CheckEmailByEmailAddress(email);
+        //}
     }
 }
