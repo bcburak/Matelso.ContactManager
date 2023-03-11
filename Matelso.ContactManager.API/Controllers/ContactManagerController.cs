@@ -1,3 +1,5 @@
+using Matelso.ContactManager.Application.Interfaces.Services;
+using Matelso.ContactManager.Domain.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Matelso.ContactManager.API.Controllers
@@ -6,28 +8,47 @@ namespace Matelso.ContactManager.API.Controllers
     [Route("[controller]")]
     public class ContactManagerController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        private readonly IContactManagerService _contactManager;
+        public ContactManagerController(IContactManagerService contactManager)
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
-        private readonly ILogger<ContactManagerController> _logger;
-
-        public ContactManagerController(ILogger<ContactManagerController> logger)
+            _contactManager = contactManager;
+        }
+        [HttpPost]
+        public async Task<ActionResult<ContactDto>> CreateContact(ContactDto contact)
         {
-            _logger = logger;
+            var result = await _contactManager.CreateContact(contact);
+            return Ok(result);
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateContact(int id, ContactDto contact)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+            var result = await _contactManager.UpdateContact(contact);
+            return Ok(result);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteContact(int id)
+        {
+            var result = await _contactManager.DeleteContactById(id);
+
+            return NoContent();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ContactDto>> GetContactById(int id)
+        {
+            var result = await _contactManager.GetContactById(id);
+
+            return NoContent();
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<ContactDto>>> GetContacts()
+        {
+            var result = await _contactManager.GetAllContacts();
+            //return await _dbContext.Contacts.ToListAsync();
+            return Ok(result);
         }
     }
 }

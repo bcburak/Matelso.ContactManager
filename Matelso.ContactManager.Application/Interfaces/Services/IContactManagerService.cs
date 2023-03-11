@@ -1,14 +1,16 @@
-﻿using Matelso.ContactManager.Domain.Contracts;
+﻿using Matelso.ContactManager.Application.Responses;
+using Matelso.ContactManager.Domain.Contracts;
+using Matelso.ContactManager.Domain.Entities;
 
 namespace Matelso.ContactManager.Application.Interfaces.Services
 {
     public interface IContactManagerService
     {
-        Task<bool> CreateContact(ContactDto contact);
-        Task<bool> UpdateContact(ContactDto contact);
-        Task<bool> DeleteContact(ContactDto contact);
-        Task<bool> GetContactById(int contactId);
-        Task<bool> GetAllContacts();
+        Task<ServiceResponse<ContactDto>> CreateContact(ContactDto contact);
+        Task<ServiceResponse<ContactDto>> UpdateContact(ContactDto contact);
+        Task<ServiceResponse<int>> DeleteContactById(int id);
+        Task<ServiceResponse<Contact>> GetContactById(int contactId);
+        Task<ServiceResponse<List<Contact>>> GetAllContacts();
 
     }
 }

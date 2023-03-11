@@ -7,5 +7,7 @@
         Task<T> AddAsync(T entity);
         void Update(T entity);
         void Remove(T entity);
+        Task RemoveAsync(T entity);
+        Task UpdateAsync(T entity);
     }
 }

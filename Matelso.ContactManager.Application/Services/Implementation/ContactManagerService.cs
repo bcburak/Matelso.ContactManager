@@ -1,6 +1,9 @@
-﻿using Matelso.ContactManager.Application.Interfaces.Repositories;
+﻿using Mapster;
+using Matelso.ContactManager.Application.Interfaces.Repositories;
 using Matelso.ContactManager.Application.Interfaces.Services;
+using Matelso.ContactManager.Application.Responses;
 using Matelso.ContactManager.Domain.Contracts;
+using Matelso.ContactManager.Domain.Entities;
 
 namespace Matelso.ContactManager.Application.Services.Implementation
 {
@@ -13,27 +16,35 @@ namespace Matelso.ContactManager.Application.Services.Implementation
             _contactRepository = contactRepository;
         }
 
-        public async Task<bool> CreateContact(ContactDto contact)
+        public async Task<ServiceResponse<ContactDto>> CreateContact(ContactDto contact)
         {
-            return true;
+            var contactEntity = contact.Adapt<Contact>();
+            var result = await _contactRepository.AddAsync(contactEntity);
+            return new ServiceResponse<ContactDto>(contact);
         }
 
-        public async Task<bool> UpdateContact(ContactDto contact)
+        public async Task<ServiceResponse<ContactDto>> UpdateContact(ContactDto contact)
         {
-            return true;
+            var contactEntity = contact.Adapt<Contact>();
+            await _contactRepository.UpdateAsync(contactEntity);
+            return new ServiceResponse<ContactDto>(contact);
         }
 
-        public async Task<bool> DeleteContact(ContactDto contact)
+        public async Task<ServiceResponse<int>> DeleteContactById(int id)
         {
-            return true;
+            var contactEntity = await _contactRepository.GetByIdAsync(id);
+            _contactRepository.Remove(contactEntity);
+            return new ServiceResponse<int>(id);
         }
-        public async Task<bool> GetContactById(int contactId)
+        public async Task<ServiceResponse<Contact>> GetContactById(int contactId)
         {
-            return true;
+            var contactEntity = await _contactRepository.GetByIdAsync(contactId);
+            return new ServiceResponse<Contact>(contactEntity);
         }
-        public async Task<bool> GetAllContacts()
+        public async Task<ServiceResponse<List<Contact>>> GetAllContacts()
         {
-            return true;
+            var contactEntityList = await _contactRepository.GetAllAsync();
+            return new ServiceResponse<List<Contact>>(contactEntityList.ToList());
         }
     }
 }

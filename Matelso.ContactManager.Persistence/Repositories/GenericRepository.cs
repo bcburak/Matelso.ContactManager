@@ -32,6 +32,17 @@ namespace Matelso.ContactManager.Persistence.Repositories
         {
             _dbContext.Set<T>().Remove(entity);
         }
+        public async Task RemoveAsync(T entity)
+        {
+            _dbContext.Set<T>().Remove(entity);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(T entity)
+        {
+            _dbContext.Entry(entity).State = EntityState.Modified;
+            await _dbContext.SaveChangesAsync();
+        }
 
         public void Update(T entity)
         {

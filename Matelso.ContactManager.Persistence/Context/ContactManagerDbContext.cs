@@ -26,6 +26,30 @@ namespace Matelso.ContactManager.Persistence.Context
                 options.UseNpgsql(Configuration.GetConnectionString("ContactManagerDb"));
             }
         }
+
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
+        {
+            var now = DateTime.UtcNow;
+
+            foreach (var entry in ChangeTracker.Entries())
+            {
+                if (entry.Entity is BaseEntity entity)
+                {
+                    switch (entry.State)
+                    {
+                        case EntityState.Modified:
+                            entity.LastChangeTimestamp = now;
+                            break;
+                        case EntityState.Added:
+                            entity.CreationTimestamp = now;
+                            entity.LastChangeTimestamp = now;
+                            break;
+                    }
+                }
+            }
+
+            return await base.SaveChangesAsync();
+        }
         public DbSet<Contact> Contact { get; set; }
     }
 }
