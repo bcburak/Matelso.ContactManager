@@ -686,7 +686,8 @@
         "dependencies": {
           "FluentValidation": "11.5.1",
           "Mapster": "7.3.0",
-          "Matelso.ContactManager.Domain": "1.0.0"
+          "Matelso.ContactManager.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "compile": {
           "bin/placeholder/Matelso.ContactManager.Application.dll": {}

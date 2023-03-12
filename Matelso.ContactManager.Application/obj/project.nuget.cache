@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SIym74+zAkgw3ZroWQsIg7t66TDbCySqwnn6t6Z9VhKXMwfniOG4KeUleZiMwU3dWZzapszGoNdtgHv9a2TJlw==",
+  "dgSpecHash": "GUMSUb6EnYMwThbBFHklEYAD06ISsUrZorPfAxu7112GrBW6g6PBocBEXqI6LPWVUqUhAhzkTv4Ti8jsACIteg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Burak.Celik\\source\\training\\Matelso.ContactManager\\Matelso.ContactManager.Application\\Matelso.ContactManager.Application.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nCsuWbKDWx+AKihaB8kR0wLxQEQTzNlvSuUtT9pzsJKk7fOmlWSaeRIauiMboOKOrssbOXg1rSupnSJWaRvK2A==",
+  "dgSpecHash": "/xKNASKyDQNW5vws9G7I0aW6WVscAG7WfcrypcacOx2+EjLQiHA/RvUFeWexZhx/43FF2FZsRbUD/Ebeu5/fWw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Burak.Celik\\source\\training\\Matelso.ContactManager\\Matelso.ContactManager.API\\Matelso.ContactManager.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Burak.Celik\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
     "C:\\Users\\Burak.Celik\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",

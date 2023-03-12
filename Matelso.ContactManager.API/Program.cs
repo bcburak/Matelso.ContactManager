@@ -1,14 +1,26 @@
+using FluentValidation.AspNetCore;
+using Matelso.ContactManager.Application.Registration;
+using Matelso.ContactManager.Application.Validation;
 using Matelso.ContactManager.Persistence.Registration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddFluentValidation(options =>
+{
+    // Validate child properties and root collection elements
+    //options.ImplicitlyValidateChildProperties = true;
+    //options.ImplicitlyValidateRootCollectionElements = true;
+    options.RegisterValidatorsFromAssemblyContaining<ContactValidator>();
+    // Automatic registration of validators in assembly
+    //options.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddPersistenceRegistration();
+builder.Services.AddApplicationRegistration();
 
 var app = builder.Build();
 
