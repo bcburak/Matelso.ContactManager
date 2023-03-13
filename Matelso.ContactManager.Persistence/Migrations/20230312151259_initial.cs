@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace Matelso.ContactManager.Persistence.Migrations
 {
-    public partial class init : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -20,12 +20,12 @@ namespace Matelso.ContactManager.Persistence.Migrations
                     FirstName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
                     LastName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
                     DisplayName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    BirthDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
-                    CreationTimestamp = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    LastChangeTimestamp = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
+                    BirthDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     NotifyHasBirthdaySoon = table.Column<bool>(type: "boolean", nullable: false),
                     Email = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    PhoneNumber = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false)
+                    PhoneNumber = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
+                    CreationTimestamp = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    LastChangeTimestamp = table.Column<DateTime>(type: "timestamp with time zone", nullable: true)
                 },
                 constraints: table =>
                 {

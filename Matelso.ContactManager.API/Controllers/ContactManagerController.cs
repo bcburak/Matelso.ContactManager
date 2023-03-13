@@ -13,41 +13,68 @@ namespace Matelso.ContactManager.API.Controllers
         {
             _contactManager = contactManager;
         }
-        [HttpPost]
+        /// <summary>
+        /// Create new contact with contact fields
+        /// </summary>
+        /// <param name="contact"></param>
+        /// <returns></returns>
+        [HttpPost("CreateContact")]
         public async Task<ActionResult<ContactDto>> CreateContact(ContactDto contact)
         {
             var result = await _contactManager.CreateContact(contact);
             return Ok(result);
         }
 
-        [HttpPut("{id}")]
+        /// <summary>
+        /// Update the contact with contact fields and Id which is already created before
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="contact"></param>
+        /// <returns></returns>
+        [HttpPut("UpdateContact/{id}")]
         public async Task<IActionResult> UpdateContact(int id, ContactDto contact)
         {
-            var result = await _contactManager.UpdateContact(contact);
+            var result = await _contactManager.UpdateContact(id, contact);
             return Ok(result);
         }
 
-        [HttpDelete("{id}")]
+        /// <summary>
+        /// Delete the contact record by contact id 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+
+        [HttpDelete("DeleteContact/{id}")]
         public async Task<IActionResult> DeleteContact(int id)
         {
             var result = await _contactManager.DeleteContactById(id);
 
-            return NoContent();
+            return Ok(result);
         }
+        /// <summary>
+        /// Get the contact record by contact id 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
 
-        [HttpGet("{id}")]
+        [HttpGet("GetContactById/{id}")]
         public async Task<ActionResult<ContactDto>> GetContactById(int id)
         {
             var result = await _contactManager.GetContactById(id);
 
-            return NoContent();
+            return Ok(result);
         }
 
+        /// <summary>
+        /// Get all created contact list
+        /// </summary>
+        /// <returns></returns>
+
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ContactDto>>> GetContacts()
+        public async Task<ActionResult<IEnumerable<ContactDto>>> GetAllContacts()
         {
             var result = await _contactManager.GetAllContacts();
-            //return await _dbContext.Contacts.ToListAsync();
+
             return Ok(result);
         }
     }

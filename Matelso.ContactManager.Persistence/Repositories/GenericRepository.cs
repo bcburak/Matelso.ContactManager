@@ -14,9 +14,18 @@ namespace Matelso.ContactManager.Persistence.Repositories
 
         public async Task<T> AddAsync(T entity)
         {
-            await _dbContext.Set<T>().AddAsync(entity);
-            await _dbContext.SaveChangesAsync();
-            return entity;
+            try
+            {
+                await _dbContext.Set<T>().AddAsync(entity);
+                await _dbContext.SaveChangesAsync();
+                return entity;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
         }
         public async Task<IEnumerable<T>> GetAllAsync()
         {
@@ -31,6 +40,7 @@ namespace Matelso.ContactManager.Persistence.Repositories
         public void Remove(T entity)
         {
             _dbContext.Set<T>().Remove(entity);
+            _dbContext.SaveChanges();
         }
         public async Task RemoveAsync(T entity)
         {

@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Matelso.ContactManager.Domain.Entities
 {
@@ -21,9 +20,7 @@ namespace Matelso.ContactManager.Domain.Entities
         [StringLength(100)]
         public string DisplayName { get; set; }
 
-        public DateTime? BirthDate { get; set; }
-
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
+        public DateTime BirthDate { get; set; }
         public bool NotifyHasBirthdaySoon { get; set; }
 
         [Required]

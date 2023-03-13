@@ -24,6 +24,7 @@ namespace Matelso.ContactManager.Persistence.Context
             if (!options.IsConfigured)
             {
                 options.UseNpgsql(Configuration.GetConnectionString("ContactManagerDb"));
+
             }
         }
 

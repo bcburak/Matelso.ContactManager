@@ -125,3 +125,7 @@ C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManag
 C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.UnitTests\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.UnitTests\bin\Debug\net6.0\Mapster.dll
 C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.UnitTests\bin\Debug\net6.0\Mapster.Core.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.UnitTests\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.UnitTests\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.UnitTests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Burak.Celik\source\training\Matelso.ContactManager\Matelso.ContactManager.UnitTests\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll

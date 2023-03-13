@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Matelso.ContactManager.Persistence.Migrations
 {
     [DbContext(typeof(ContactManagerDbContext))]
-    [Migration("20230311105835_init")]
-    partial class init
+    [Migration("20230312151259_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,7 +32,7 @@ namespace Matelso.ContactManager.Persistence.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime?>("BirthDate")
+                    b.Property<DateTime>("BirthDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<DateTime>("CreationTimestamp")
@@ -63,7 +63,6 @@ namespace Matelso.ContactManager.Persistence.Migrations
                         .HasColumnType("character varying(100)");
 
                     b.Property<bool>("NotifyHasBirthdaySoon")
-                        .ValueGeneratedOnAddOrUpdate()
                         .HasColumnType("boolean");
 
                     b.Property<string>("PhoneNumber")
